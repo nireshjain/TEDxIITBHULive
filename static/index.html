@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/jQuery.pagePeel.1.2.1.js"></script>
+		<style>
+		.page-peel-adjuster .page-peel-holder{
+		-webkit-transform: rotateX(180deg);
+				-moz-transform: rotateX(180deg);
+				transform: rotateX(180deg);
+				filter: FlipV;
+    			-ms-filter: "FlipV";
+		</style>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			<!--alert ('jQuery running');-->
+			$('#pagePeel').pagePeel({
+			flash: true,
+			introAnim: true,
+			bigSWFIntro: 'images/page-peel-big-intro.swf',
+			smallBG: 'images/small.png',
+			adLink: 'blank',
+			hPosition: 'right',
+			vPosition: 'bottom',
+			bigAd: 'images/thenextchapter.jpg',
+			bigSWF: 'images/page-peel-big-intro.swf'
+					});
+				});
+		</script>
+    </head>
+    
+	<body>
+		<div id="pagePeel"></div>
+		<div id="landing"></div>
+		<div id="insidePeel"></div>
+	</body>
+	</html>

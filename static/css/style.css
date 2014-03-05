@@ -137,9 +137,9 @@ header p {
 	height:1px;
 	background-color:transparent;
 	margin-top:-5px;
-	-webkit-box-shadow:rgba(0,0,0,1) 0px -3px 10px;
+	-webkit-box-shadow:rgba(0,0,0,1) 0px 3px 10px;
 	position:absolute;
-	z-index:12;
+	z-index:9;
 	}
 	
 #section2{
@@ -147,7 +147,8 @@ header p {
 	height:150px;
 	margin-bottom: 0px;
 	margin-top:-135px;
-	z-index:13;
+	position:absolute;
+	z-index:12;
 	}
 #section2-container>div{
 	display:inline-block;
@@ -324,7 +325,38 @@ header p {
 	padding:15px;
 	}
 	
+/*********************** Registration Form****************/
+#formtag{
+	text-align:left;
+	font:16px Tahoma;
+	padding-top:50px;
+	margin-left:350px;
+	}
 	
+#regform > ul{
+	display:block;
+
+	}
+#regform li{
+	text-align:left;
+	list-style:none;
+	padding:10px;
+	}
+	
+#submit-button{
+	text-align:left;
+	margin-left:10px;
+	margin-top:50px;
+	}
+	
+#reg-heading{
+	padding-top:50px;
+	font: bold 40px Helvetica;
+	text-align:center;
+	
+	}
+
+
 /*********************** Team Page ***********************/
 #team-section{
 	width:1351px;

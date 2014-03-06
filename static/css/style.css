@@ -285,8 +285,9 @@ header p {
 /*********************** About Page ***********************/
 #about-section{
 	width:1351px;
-	height:1000px;
+	height:auto;
 	z-index:-2;
+	margin-bottom:40px;
 	}
 #about-section>div{
 	display:inline-block;
@@ -324,6 +325,18 @@ header p {
 	text-align:justify;
 	font:14px Helvetica;
 	padding:15px;
+	}
+.tedx_head{
+	margin-top:20px;
+	text-align:center;
+	font:bold 20px Helvetica;
+	display:inline-block;
+	}
+.about_image{
+	height:274px;
+	float:left;
+	margin-right:30px;
+	border:1px solid #d3d3d3;
 	}
 	
 /*********************** Registration Form****************/

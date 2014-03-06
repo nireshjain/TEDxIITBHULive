@@ -161,17 +161,19 @@ header p {
 	width:351px;
 	height:120px;
 	background-color:#FFFFFF;
+	opacity:0.85;
 /**	background-color:#231f20; **/
 	color:#000000;
-	margin:10px 30px 0px 30px;
+	margin:0px 30px 0px 30px;
 	font:15px Helvetica;
 	}
 .info-head{
 	font:bold 30px Tahoma;
-	color:#e62a1e;
+	color:#2f2f2f;
 	}
 .info-text{
 	padding:5px 0px 5px 0px;
+	/**color:#e62a1e;**/
 	}	
 	
 
@@ -288,7 +290,6 @@ header p {
 	}
 #about-section>div{
 	display:inline-block;
-	
 	}
 
 #about-ted{
@@ -430,6 +431,68 @@ header p {
 	-ms-box-shadow: 0 0 10px 5px #356b0b inset;
 	-o-box-shadow: 0 0 10px 5px #356b0b inset;
 	}
+	
+/*********************** Theme Page ***********************/
+#theme-section{
+	height:auto;
+	margin-bottom:20px;
+	z-index:-2;
+	}
+.container_24{
+	display:inline-block;
+	margin-top:80px;
+	z-index:-2;
+	}
+	
+.container_24>div{
+	}
+
+.theme_image{
+	height:274px;
+	float:left;
+	margin-right:30px;
+	}
+	
+#ted_2014{
+	border-top:1px solid #d3d3d3;
+	border-bottom:1px solid #d3d3d3;
+	border-left:none;
+	border-right:none;
+	margin:12px;
+	width:1120px;
+	}
+
+#tedxiitbhu_theme{
+	border-top:1px solid #d3d3d3;
+	border-bottom:1px solid #d3d3d3;
+	border-left:none;
+	border-right:none;
+	margin:12px;
+	width:1120px;
+	}
+
+.theme{
+	text-align:justify;
+	}
+.theme_head{
+	margin-top:20px;
+	text-align:center;
+	font:bold 32px Helvetica;
+	display:inline-block;
+
+	}
+.theme_text{
+	margin-top:20px;
+	margin-right:20px;
+	font:16px Tahoma;
+	}
+.theme_text_tedxiitbhu{
+	margin-top:20px;
+	margin-right:20px;
+	padding-left:20px;
+	margin-bottom:30px;
+	font:16px Tahoma;
+}
 
 /*********************** Team Page ***********************/
 #team-section{

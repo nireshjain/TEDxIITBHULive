@@ -368,7 +368,7 @@ header p {
 
 #regform{
 	width:951px;
-	height:600px;
+	height:610px;;
 	background-color:#d3d3d3;
 	margin-left:200px;
 	}
@@ -376,8 +376,18 @@ header p {
 .regdiv{
 	display:inline-block;
 	width:150px;
-	
 	}
+	
+.confirm_reg{
+	position:relative;
+	width:750px;
+	margin-left:100px;
+	margin-top:3px;
+	font:bold 16px Helvetica;
+	background-color:#e62a1e;
+	color:#FFFFFF;
+	}
+	
 .input-box{
 	width:200px;
 	height:100px;
